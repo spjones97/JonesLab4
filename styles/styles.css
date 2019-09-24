@@ -1,0 +1,147 @@
+body,
+html {
+    height: 100%;
+    margin: 0%;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#nav_menu {
+    width: 100%;
+    background: rgb(49, 49, 49);
+    padding: 1px;
+    padding-right: 40px;
+    position: fixed;
+    z-index: 11;
+}
+
+.menuitem {
+    display: inline-block;
+    background: bisque;
+    width: 90px;
+    padding: 5px 5px;
+    border-radius: 2px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.menulink {
+    color: black;
+    text-decoration: none;
+}
+
+.dropdown {
+    display: none;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 10;
+}
+
+.menuitem:hover {
+    background: white;
+}
+
+.menuitem:hover .dropdown {
+    display: block;
+}
+
+.dropdown-item {
+    display: block;
+    background: rgb(49, 49, 49);
+    white-space: nowrap;
+}
+
+.dropdown-item:hover {
+    background: grey;
+}
+
+.dropdown-item .menulink {
+    color: white;
+}
+
+.jumbotron {
+    font-family: 'Cinzel', serif;
+    text-transform: uppercase;
+    background-image: url("../images/background.png");
+
+    height: 22em;
+    padding-top: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.container {
+    background-position: center;
+    display: inline-block;
+    padding-top: 3em;
+}
+
+.jumbotron .container a {
+    background: rgb(49, 49, 49);
+    color: white;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-top: 0;
+    width: 200px;
+    border-radius: 2px;
+    box-sizing: border-box;
+    position: relative;
+    text-decoration: none;
+}
+
+.jumbotron h1 {
+    font-size: 300%;
+    margin-bottom: 30px;
+}
+
+.supporting {
+    background: white;
+    padding-bottom: 5em;
+}
+
+.col {
+    background-position: center;
+    display: inline-block;
+    padding-top: 0;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.col a {
+    color: rgb(49, 49, 49);
+    display: inline-block;
+    text-transform: uppercase;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(49, 49, 49);
+    padding-top: 0;
+    margin-top: 0;
+    width: 120px;
+    border-radius: 2px;
+    box-sizing: border-box;
+    position: relative;
+    text-decoration: none;
+}
+
+footer .container {
+    text-transform: uppercase;
+    display: inline-block;
+    width: 100%;
+    color: white;
+    background: rgb(49, 49, 49);
+    height: 10%;
+    padding: 5px 5px;
+    border-radius: 2px;
+    box-sizing: border-box;
+    position: relative;
+}
