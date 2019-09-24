@@ -1,4 +1,4 @@
-##Instructions
+# Instructions
 
 In this lab, you'll incorporate both CSS positioning and HTML5/CSS3 lists, links, and navigation techniques to create a website layout including a multi-level navigation bar. I've given you an index.html to start with, populated with all the HTML you'll need, and you'll customize the content and add CSS for styling and layout to make it look like the layout in the attached image.
 
@@ -6,7 +6,7 @@ As you work, you should change the actual content (text, photos, colors, fonts, 
 
 Note: you can accomplish all this with only lists, links, and positioning. Please do not use flexbox, CSS grid, or other methods, even if you know how to use them. We'll get to those later!
 
-##Here are the steps:
+# Here are the steps:
 
 * Create a root directory (project folder) called YourLastNameLab4.
 * Download the index.html document attached to this assignment and place it inside your root directory. You can also create your own index.html and populate it with the HTML found here: https://codepen.io/tkjn/pen/jdYqQr?editors=1000, which is the same thing.
@@ -23,7 +23,7 @@ Note: you can accomplish all this with only lists, links, and positioning. Pleas
 * Nothing crazy happens when you make your browser narrower
 Important note: It is possible to create this layout using only the HTML and classes included in the index.html starter code provided here. However, you're not required to use only that HTML and those classes; there is more than one acceptable way to complete this assignment. Please feel free to add to or change any or all of the HTML in index.html--whatever makes the most sense to you.
 
-##Also: 
+# Also: 
 
 * Add a background image to the jumbotron class, the same way you did to create Image 1 of the Box Model Lab.
 * Change the icons that appear above each "thing" using Font Awesome. I've already added a link to the Font Awesome CDN to the <head> of index.html. This page tells you how to use Font Awesome icons: https://fontawesome.com/how-to-use/on-the-web/referencing-icons/basic-use and here's a Font Awesome icon cheat sheet: https://fontawesome.com/cheatsheet
